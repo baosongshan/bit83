@@ -2,6 +2,64 @@
 #include<stdlib.h>
 
 
+
+void main()
+{
+	int start, end;
+	int sum;
+	printf("input start and end:>");
+	scanf("%d %d", &start, &end);
+	//  1       10
+	//start    end
+	while(start <= end)
+	{
+		sum = sum + start;
+		start++;
+	}
+	printf("sum = %d\n", sum);
+}
+
+
+/*
+//Linux
+
+int main()
+{
+	int a = 0;
+	printf("%d %d %d %d\n", a++, ++a, a++, ++a); // ¿ÉÒÆÖ²ĞÔ
+	//      2  2   1  1
+	//         3   1  1
+	printf("a = %d\n", a);
+	return 0;
+}
+
+/*
+int main()
+{
+	int a = 0;
+	       // 0       1
+	int v = (a++) + (a++) + (++a);
+
+	printf("v = %d\n", v); //
+
+	printf("a = %d\n", a); //
+	
+	return 0;
+}
+
+
+/*
+int main()
+{
+	int a = 0;
+	int v = ++a; //
+	printf("v = %d\n", v);
+	printf("a = %d\n", a);
+	return 0;
+}
+
+
+
 int main()
 {
 	int a = 0;
@@ -14,7 +72,7 @@ int main()
 	return 0;
 }
 
-/*
+
 int main()
 {
 	int a = 0;

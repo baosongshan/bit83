@@ -1,0 +1,15 @@
+1、录屏地址
+      链接：https://pan.baidu.com/s/1Rl5bBvwZJkBubzcwC8m7Ww 
+     提取码：0j7f
+
+2、代码地址
+     先根据课件9, 安装git客户端，然后用下面的地址进行下载
+     https://github.com/baosongshan/bit83.git
+
+3、资料地址
+     链接：https://pan.baidu.com/s/1-Rr9C9cJTkwrHJY7WzbGgw 
+     提取码：4t8t 
+
+4、编译器地址
+     链接：https://pan.baidu.com/s/1-dSoU2hsNLzSZqVl7FV9yw 
+     提取码：pc87 
