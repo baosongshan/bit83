@@ -1,14 +1,31 @@
 #include"common.h"
 
+const char *title = "身份验证查询系统";
+
 int main(int argc, char *argv[])
 {
-	const char *title = "身份验证查询系统";
-	DrawFrame(title);
-
 	char cmd[MAX_CMD_SIZE] = {0};
-	//while(1)
+	while(1)
 	{
-		//DrawFrame(title);
+		DrawFrame(title);
+		DrawMenu(title);
+		scanf("%s", cmd);
+		if(strcmp(cmd,"1") == 0)
+		{
+			//归属地查询
+			SearchID();
+		}
+		else if(strcmp(cmd, "2") == 0)
+		{
+			//合法性验证
+			CheckID();
+		}
+		else if(strcmp(cmd, "exit") == 0)
+			break;
+		else
+		{
+			printf("Input Cmd Error！Please input again...\n");
+		}
 	}
 
 	SystemEnd();

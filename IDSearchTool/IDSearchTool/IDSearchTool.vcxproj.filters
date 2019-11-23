@@ -21,12 +21,18 @@
     <ClInclude Include="sysframe.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="idsearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IDSearchTool.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="sysframe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="idsearch.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

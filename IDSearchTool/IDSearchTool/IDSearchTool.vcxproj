@@ -77,9 +77,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="idsearch.h" />
     <ClInclude Include="sysframe.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="idsearch.c" />
     <ClCompile Include="IDSearchTool.c" />
     <ClCompile Include="sysframe.c" />
   </ItemGroup>

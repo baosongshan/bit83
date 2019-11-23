@@ -11,6 +11,8 @@ void RecoverCursor();
 void DrawRow(int x, int y);
 void DrawCol(int x, int y);
 void DrawFrame(const char *title);
+void DrawMenu();
+//void DrawSysMenu();
 
 void SystemEnd();
 
