@@ -1,5 +1,21 @@
 #include"common.h"
 
+int main(int argc, char *argv[])
+{
+	const char *title = "身份验证查询系统";
+	DrawFrame(title);
+
+	char cmd[MAX_CMD_SIZE] = {0};
+	//while(1)
+	{
+		//DrawFrame(title);
+	}
+
+	SystemEnd();
+	return 0;
+}
+
+/*
 void Test()
 {
 	//设置标题
@@ -39,12 +55,22 @@ struct Pointer
 };
 
 void TestFrame()
-{}
+{
+	//设置标题
+	system("title 身份查询验证系统");
+	//设置窗口宽高
+	system("mode con cols=60 lines=20");
+	//颜色设置
+	//DrawCol(30,0);
+	DrawRow(0, 3);
+}
 
 int main()
 {
 	//Test();
 	//TestCur();
+	TestFrame();
 
 	return 0;
 }
+*/
